@@ -130,7 +130,7 @@ span.cmd {
 
 .control-box input[type="text"] {
     position: absolute;
-    bottom: 0; 
+    bottom: 0;
     padding-left: 15px;
     color: #FFF;
     line-height: 14px;
@@ -276,7 +276,7 @@ a {
 }
 a:hover, a.openswitch.selected {
   border-bottom: 2px solid rgba(109, 235, 144, 1);
-  color: #60d17f;  
+  color: #60d17f;
 }
 ul {
     list-style: none;
@@ -286,6 +286,9 @@ ul {
 }
 .tagline {
   font-size: 30px;
+}
+.note {
+  font-size: 16px;
 }
 .padding {
     height: 11px;

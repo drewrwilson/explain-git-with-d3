@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-<title>Explain Git with D3</title>
+<title>Understanding Git</title>
 <script data-main="js/main" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.4/require.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/2.1.0/normalize.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/1140/2.0/1140.css">
@@ -20,18 +20,21 @@
 <div class="container">
   <div class="row intro">
     <div class="twelvecol">
-      <h1 class="title">Visualizing Git Concepts</h1>
+      <h1 class="title">Understanding Git Concepts</h1>
       <p class="tagline">
-        Visualizing Git helps you understand some basic git concepts visually.
+        This page helps you understand some basic git concepts by demonstrating them visually.
       </p>
       <p>
-        Adding/staging your files for commit will not be covered by this site. In all sandbox playgrounds
+        Click on one of the example commands below to see a visual demonstration of how git works. Start with the <strong>Basic Commands</strong> and work your way up to <strong>Remote Server</strong>.
+      </p>
+      <p class="note">
+        Note: Adding/staging your files for commit will not be covered by this site. In all sandbox playgrounds
         on this site, just pretend that you always have files staged and ready to commit at all times.
         If you need a refresher on how to add or stage files for commit, please read
         <a href="http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository">Git Basics</a>.
       </p>
-      <p>
-        Sandboxes are split by specific git commands, listed below.
+      <p class="note">
+        Each git command is <em>sandboxed</em>, meaning that each one is seperate and one won't have an impact on another.
       </p>
     </div>
   </div>
@@ -43,8 +46,8 @@
         <li><a id="open-branch" class="openswitch" href="#">git branch</a>
         <h5 class="padding">&nbsp;</h5></li>
         <li><a id="open-checkout" class="openswitch" href="#">git checkout</a></li>
-        <li><a id="open-checkout-b" class="openswitch" href="#">git checkout -b</a></li>  
-      </ul>       
+        <li><a id="open-checkout-b" class="openswitch" href="#">git checkout -b</a></li>
+      </ul>
     </div>
     <div class="threecol">
       <h4>Undo Commits</h4>
@@ -67,7 +70,7 @@
         <li><a id="open-pull" class="openswitch" href="#">git pull</a>
         <h5 class="padding">&nbsp;</h5></li>
         <li><a id="open-push" class="openswitch" href="#">git push</a></li>
-        <li><a id="open-tag" class="openswitch" href="#">git tag</a></li>     
+        <li><a id="open-tag" class="openswitch" href="#">git tag</a></li>
     </div>
   </div>
   <div class="row concept-area">
@@ -270,8 +273,8 @@
   </div>
   <div class="row">
     <div class="twelvecol">
-      <h2>Specific Examples</h2>
-      <p>Below I have created some specific real-world scenarios that I feel are quite common and useful.</p>
+      <h2>Real-world Examples</h2>
+      <p>Below are some common real-world scenarios that are valuable to understand.</p>
     </div>
   </div>
   <div class="row example-list">
@@ -280,13 +283,13 @@
         <li><a id="open-clean" class="openswitch" href="#">Restore Local Branch to State on Origin Server</a></li>
         <li><a id="open-fetchrebase" class="openswitch" href="#">Update Private Local Branch with Latest from Origin</a></li>
         <li><a id="open-deletebranches" class="openswitch" href="#">Deleting Local Branches</a></li>
-      </ul>     
+      </ul>
     </div>
     <div class="fourcol last">
       <ul>
         <li><a id="open-freeplay" class="openswitch" href="#">Free Playground</a></li>
         <li><a id="open-zen" class="openswitch" href="#">Zen Mode</a></li>
-      </ul>              
+      </ul>
     </div>
   </div>
   <p class="p-small">Visualizations by <a href="https://github.com/onlywei">Wei Wang</a>. Styled by <a href="http://maya-benari.com/">Maya Benari</a>.</p>
